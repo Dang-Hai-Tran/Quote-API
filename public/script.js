@@ -70,6 +70,6 @@ fetchByAuthorButton.addEventListener('click', () => {
     }
   })
   .then(response => {
-    renderQuotes(response.quotes);
+    renderQuotes([response.quotes]);
   });
 });
